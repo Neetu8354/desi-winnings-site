@@ -2,13 +2,15 @@ import logo from "@/assets/logo.png";
 import { WHATSAPP_LINK } from "@/lib/links";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const NAV = [
-  { label: "Home", href: "#home" },
-  { label: "Cricket", href: "#cricket" },
-  { label: "Casino", href: "#casino" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/#home" },
+  { label: "Cricket", href: "/#cricket" },
+  { label: "Casino", href: "/#casino" },
+  { label: "Blog", href: "/blog" },
+  { label: "About", href: "/#about" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export const Header = () => {

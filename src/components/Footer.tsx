@@ -1,5 +1,7 @@
 import logo from "@/assets/logo.png";
+import { Link } from "react-router-dom";
 import { WHATSAPP_LINK } from "@/lib/links";
+import { BLOG_POSTS } from "@/data/blogPosts";
 
 export const Footer = () => (
   <footer className="border-t border-gold/20 bg-gradient-dark mt-12">

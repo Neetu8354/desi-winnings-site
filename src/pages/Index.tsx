@@ -23,6 +23,7 @@ const Index = () => {
       alternateName: ["Mahadev Book ID", "Mahadevvbooks"],
       url: "https://mahadevvbooks.com/",
       logo: "https://mahadevvbooks.com/favicon.png",
+      image: "https://mahadevvbooks.com/og-image.jpg",
       description: "India's most trusted online cricket betting & live casino ID provider with instant UPI deposits & withdrawals in INR.",
       sameAs: ["https://wa.link/reddyanna_"],
       contactPoint: {
@@ -42,6 +43,30 @@ const Index = () => {
         "@type": "SearchAction",
         target: "https://mahadevvbooks.com/blog?q={search_term_string}",
         "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      name: "Online Cricket Betting ID & Live Casino",
+      serviceType: "Cricket betting ID provider",
+      provider: { "@type": "Organization", name: "Mahadev Book", url: "https://mahadevvbooks.com/" },
+      areaServed: { "@type": "Country", name: "India" },
+      description: "Instant verified online cricket betting ID for IPL 2026, T20 World Cup and live casino games like Teen Patti, Andar Bahar, Roulette. UPI deposit & withdrawal in INR.",
+      offers: {
+        "@type": "Offer",
+        price: "100",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+        url: "https://wa.link/reddyanna_",
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        bestRating: "5",
+        worstRating: "1",
+        ratingCount: "12480",
+        reviewCount: "8743",
       },
     },
     {

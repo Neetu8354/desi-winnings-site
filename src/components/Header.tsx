@@ -39,20 +39,20 @@ export const Header = () => {
           </a>
         </div>
 
-        <div className="md:hidden flex items-center gap-2">
+        <div className="flex items-center gap-2 ml-auto md:ml-0">
           <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
-            className="px-3 py-1.5 rounded-full text-xs font-semibold border border-gold/50 text-gold whitespace-nowrap">
+            className="md:hidden px-3 py-1.5 rounded-full text-xs font-semibold border border-gold/50 text-gold whitespace-nowrap">
             Login
           </a>
           <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
-            className="px-3 py-1.5 rounded-full text-xs font-bold bg-gradient-gold text-primary-foreground shadow-gold whitespace-nowrap">
+            className="md:hidden px-3 py-1.5 rounded-full text-xs font-bold bg-gradient-gold text-primary-foreground shadow-gold whitespace-nowrap">
             Sign Up
           </a>
-        </div>
 
-        <button className="lg:hidden text-gold p-1.5 -mr-1" onClick={() => setOpen(!open)} aria-label="Menu">
-          {open ? <X /> : <Menu />}
-        </button>
+          <button className="lg:hidden text-gold p-1.5 ml-1" onClick={() => setOpen(!open)} aria-label="Menu">
+            {open ? <X /> : <Menu />}
+          </button>
+        </div>
       </div>
 
       {open && (

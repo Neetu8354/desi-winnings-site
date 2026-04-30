@@ -12,13 +12,13 @@ const Blog = () => {
       "@context": "https://schema.org",
       "@type": "Blog",
       name: "Mahadev Book Blog",
-      url: "https://mahadevbookportal.live/blog",
+      url: "https://mahadevfast.live/blog",
       description: "Expert guides on cricket betting, IPL strategy, live casino, Teen Patti, Andar Bahar and online betting in India.",
-      publisher: { "@type": "Organization", name: "Mahadev Book", url: "https://mahadevbookportal.live" },
+      publisher: { "@type": "Organization", name: "Mahadev Book", url: "https://mahadevfast.live" },
       blogPost: BLOG_POSTS.map(p => ({
         "@type": "BlogPosting",
         headline: p.title,
-        url: `https://mahadevbookportal.live/blog/${p.slug}`,
+        url: `https://mahadevfast.live/blog/${p.slug}`,
         datePublished: p.publishedAt,
         dateModified: p.updatedAt,
         author: { "@type": "Organization", name: p.author },
@@ -29,8 +29,8 @@ const Blog = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://mahadevbookportal.live/" },
-        { "@type": "ListItem", position: 2, name: "Blog", item: "https://mahadevbookportal.live/blog" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://mahadevfast.live/" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://mahadevfast.live/blog" },
       ],
     },
   ];

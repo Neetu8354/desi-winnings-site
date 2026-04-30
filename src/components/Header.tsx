@@ -5,12 +5,12 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const NAV = [
-  { label: "Home", href: "/#home" },
-  { label: "Cricket", href: "/#cricket" },
-  { label: "Casino", href: "/#casino" },
+  { label: "Home", href: "/" },
+  { label: "Cricket", href: "/games/cricket" },
+  { label: "Casino", href: "/games/teen-patti" },
   { label: "Blog", href: "/blog" },
-  { label: "About", href: "/#about" },
-  { label: "Contact", href: "/#contact" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const Header = () => {

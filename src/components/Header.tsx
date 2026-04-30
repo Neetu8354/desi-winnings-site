@@ -71,11 +71,15 @@ export const Header = () => {
 
       {open && (
         <div className="lg:hidden border-t border-gold/20 bg-background/95 px-6 py-4 space-y-3">
-          {NAV.map((n) => (
-            <a key={n.href} href={n.href} onClick={() => setOpen(false)} className="block py-2 text-foreground/90 hover:text-gold">
-              {n.label}
-            </a>
-          ))}
+          {NAV.map((n) => {
+            const isInternal = n.href.startsWith("/") && !n.href.includes("#");
+            const cls = "block py-2 text-foreground/90 hover:text-gold";
+            return isInternal ? (
+              <Link key={n.href} to={n.href} onClick={() => setOpen(false)} className={cls}>{n.label}</Link>
+            ) : (
+              <a key={n.href} href={n.href} onClick={() => setOpen(false)} className={cls}>{n.label}</a>
+            );
+          })}
           <div className="flex gap-2 pt-2">
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
               className="flex-1 text-center px-5 py-2.5 rounded-full font-semibold border border-gold/50 text-gold">

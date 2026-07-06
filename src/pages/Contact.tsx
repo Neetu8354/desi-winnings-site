@@ -23,7 +23,7 @@ const Contact = () => {
             "@type": "ContactPoint",
             contactType: "Customer Support",
             availableLanguage: ["English", "Hindi"],
-            url: "https://wa.link/reddyanna_",
+            url: "https://mahadevfast.live/",
             areaServed: "IN",
             hoursAvailable: "Mo-Su 00:00-23:59",
           },

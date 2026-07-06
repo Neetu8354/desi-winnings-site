@@ -46,14 +46,14 @@ const Index = () => {
     },
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "@id": "https://mahadevfast.live/#business",
+      "@type": "Organization",
+      "@id": "https://mahadevfast.live/#organization",
       name: "Mahadev Book",
       url: "https://mahadevfast.live/",
+      logo: "https://mahadevfast.live/favicon.png",
       image: "https://mahadevfast.live/og-image.jpg",
       description: "#1 Cricket Betting ID & Live Casino India",
       areaServed: { "@type": "Country", name: "India" },
-      priceRange: "₹₹",
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: "4.9",

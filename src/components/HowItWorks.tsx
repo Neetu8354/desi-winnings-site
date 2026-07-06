@@ -2,23 +2,22 @@ import { WHATSAPP_LINK } from "@/lib/links";
 import { MessageCircle, UserCheck, Wallet, Trophy } from "lucide-react";
 
 const STEPS = [
-  { icon: MessageCircle, title: "Message on WhatsApp", desc: "Click the WhatsApp button to chat with our support team instantly." },
-  { icon: UserCheck, title: "Get Your ID", desc: "Receive your verified Mahadev Book ID within 2 minutes." },
-  { icon: Wallet, title: "Deposit in ₹ INR", desc: "Add money via UPI, Paytm, NetBanking — instant credit to your ID." },
-  { icon: Trophy, title: "Bet & Win Big", desc: "Bet on cricket & casino, withdraw winnings instantly to your bank." },
+  { icon: MessageCircle, title: "Message Us on WhatsApp", desc: "Send 'Get ID' to our WhatsApp number. No forms to fill, no documents required, no waiting in queue." },
+  { icon: UserCheck, title: "Get Your ID in 60 Seconds", desc: "Our team creates your MahadevFast betting ID instantly. You receive your login credentials within 60 seconds of messaging us." },
+  { icon: Wallet, title: "Deposit & Start Winning", desc: "Deposit as little as ₹100 via UPI, IMPS or Net Banking. Start betting on cricket and casino games immediately." },
 ];
 
 export const HowItWorks = () => (
   <section className="py-16 md:py-24 bg-gradient-dark border-y border-gold/20">
     <div className="container">
       <div className="text-center max-w-2xl mx-auto mb-14">
-        <div className="text-gold text-sm font-semibold tracking-widest uppercase mb-3">Get Started in 4 Steps</div>
+        <div className="text-gold text-sm font-semibold tracking-widest uppercase mb-3">Get Started in 3 Simple Steps</div>
         <h2 className="text-3xl md:text-5xl font-display font-bold">
-          How to <span className="text-gradient-gold">Get Your ID</span>
+          Your MahadevFast betting ID is just <span className="text-gradient-gold">one WhatsApp message away</span>
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-4 gap-6 relative">
+      <div className="grid md:grid-cols-3 gap-6 relative">
         {STEPS.map((s, i) => (
           <div key={i} className="relative">
             <div className="relative z-10 p-6 rounded-2xl bg-card border border-gold/30 text-center hover:border-gold/70 transition-all hover:-translate-y-1">

@@ -14,26 +14,26 @@ export const Hero = () => {
       <div className="relative container py-16 sm:py-24 md:py-36 lg:py-44">
         <div className="max-w-3xl space-y-5 sm:space-y-6">
           <div className="inline-flex items-center gap-2 px-3 py-1 sm:px-4 sm:py-1.5 rounded-full bg-gold/10 border border-gold/30 text-gold text-[10px] sm:text-xs font-semibold tracking-wide uppercase">
-            <Zap className="w-3 h-3 sm:w-3.5 sm:h-3.5" /> India's #1 Cricket Betting ID
+            <Zap className="w-3 h-3 sm:w-3.5 sm:h-3.5" /> India's Fastest Cricket Betting ID
           </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-display font-bold leading-tight">
-            <span className="text-gradient-gold">Mahadev Book</span>
+            <span className="text-gradient-gold">MahadevFast</span>
             <br />
-            <span className="text-foreground">India's Most Trusted</span>
+            <span className="text-foreground">Get Your Cricket Betting ID</span>
             <br />
-            <span className="text-foreground/90 text-2xl sm:text-3xl md:text-5xl lg:text-6xl">Online Cricket Betting ID</span>
+            <span className="text-foreground/90 text-2xl sm:text-3xl md:text-5xl lg:text-6xl">in 60 Seconds</span>
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Bet on IPL, T20 World Cup, every cricket league plus live casino games like Teen Patti, Andar Bahar, Roulette and more. Instant UPI deposit & withdrawal in <span className="text-gold font-semibold">Indian Rupees ₹</span>. 24x7 WhatsApp support.
+            Bet on IPL 2026, T20 World Cup, Test matches and every cricket league in India. Play live Teen Patti, Aviator, Andar Bahar and 500+ casino games. Get your ID on WhatsApp in just 60 seconds — no forms, no waiting, no hassle.
           </p>
 
           <div className="flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center gap-3 sm:gap-4 pt-2">
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
               className="group inline-flex justify-center items-center gap-2 sm:gap-3 px-5 sm:px-7 py-3.5 sm:py-4 rounded-full bg-gradient-gold text-primary-foreground font-bold text-sm sm:text-base shadow-gold hover:shadow-gold-lg hover:scale-105 transition-all">
               <Trophy className="w-4 h-4 sm:w-5 sm:h-5" />
-              Get Mahadev Book ID
+              Get My Free ID — WhatsApp Now
             </a>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
               className="inline-flex justify-center items-center gap-2 px-5 sm:px-6 py-3.5 sm:py-4 rounded-full border-2 border-gold/40 text-foreground font-semibold text-sm sm:text-base hover:bg-gold/10 transition-all">
@@ -43,9 +43,9 @@ export const Hero = () => {
           </div>
 
           <div className="flex flex-wrap items-center gap-6 pt-6">
+            <div className="flex items-center gap-2 text-sm text-muted-foreground"><Zap className="w-4 h-4 text-gold" /> ID in 60 Seconds</div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground"><ShieldCheck className="w-4 h-4 text-gold" /> 100% Safe & Secure</div>
-            <div className="flex items-center gap-2 text-sm text-muted-foreground"><Zap className="w-4 h-4 text-gold" /> Instant UPI Withdrawal</div>
-            <div className="flex items-center gap-2 text-sm text-muted-foreground"><Trophy className="w-4 h-4 text-gold" /> 60,000+ Live Events / Month</div>
+            <div className="flex items-center gap-2 text-sm text-muted-foreground"><Trophy className="w-4 h-4 text-gold" /> 5-Minute Withdrawal</div>
           </div>
         </div>
       </div>

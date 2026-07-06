@@ -19,12 +19,12 @@ const Index = () => {
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Mahadev Book",
-      alternateName: ["Mahadev Book ID", "Mahadevvbooks"],
+      name: "MahadevFast",
+      alternateName: ["MahadevFast Cricket ID", "MahadevFast Betting"],
       url: "https://mahadevfast.live/",
       logo: "https://mahadevfast.live/favicon.png",
       image: "https://mahadevfast.live/og-image.jpg",
-      description: "India's most trusted online cricket betting & live casino ID provider with instant UPI deposits & withdrawals in INR.",
+      description: "India's fastest online cricket betting ID platform. Get your cricket betting ID in 60 seconds via WhatsApp.",
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "Customer Support",
@@ -36,7 +36,7 @@ const Index = () => {
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      name: "Mahadev Book",
+      name: "MahadevFast",
       url: "https://mahadevfast.live/",
       potentialAction: {
         "@type": "SearchAction",
@@ -48,11 +48,11 @@ const Index = () => {
       "@context": "https://schema.org",
       "@type": "Organization",
       "@id": "https://mahadevfast.live/#organization",
-      name: "Mahadev Book",
+      name: "MahadevFast",
       url: "https://mahadevfast.live/",
       logo: "https://mahadevfast.live/favicon.png",
       image: "https://mahadevfast.live/og-image.jpg",
-      description: "#1 Cricket Betting ID & Live Casino India",
+      description: "India's fastest cricket betting ID platform — Get your ID in 60 seconds via WhatsApp",
       areaServed: { "@type": "Country", name: "India" },
       aggregateRating: {
         "@type": "AggregateRating",
@@ -67,9 +67,9 @@ const Index = () => {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       mainEntity: [
-        { "@type": "Question", name: "What is Mahadev Book?", acceptedAnswer: { "@type": "Answer", text: "Mahadev Book is India's most trusted online cricket betting and live casino ID provider with instant INR deposits & withdrawals via UPI." } },
-        { "@type": "Question", name: "How do I get a Mahadev Book ID?", acceptedAnswer: { "@type": "Answer", text: "Click any 'Get ID' button to chat on WhatsApp. We provide your verified ID within 2 minutes, 24x7." } },
-        { "@type": "Question", name: "Is Mahadev Book safe?", acceptedAnswer: { "@type": "Answer", text: "Yes — verified KYC, encrypted transactions, and 100% secure funds. Trusted by thousands of Indian players." } },
+        { "@type": "Question", name: "What is MahadevFast?", acceptedAnswer: { "@type": "Answer", text: "MahadevFast is India's fastest online cricket betting ID provider. Get your betting ID in 60 seconds via WhatsApp. Bet on IPL, T20, Test cricket and play 500+ casino games including Teen Patti, Aviator and Andar Bahar." } },
+        { "@type": "Question", name: "How do I get a MahadevFast cricket betting ID?", acceptedAnswer: { "@type": "Answer", text: "Send 'Get ID' to our WhatsApp and we'll create your betting ID within 60 seconds. No forms, no documents, no waiting. Your ID is active immediately." } },
+        { "@type": "Question", name: "Is MahadevFast safe and secure?", acceptedAnswer: { "@type": "Answer", text: "Yes. MahadevFast is 100% safe and secure. Your personal information and financial data are fully protected. All deposits and withdrawals are processed securely." } },
         { "@type": "Question", name: "What payment methods are supported?", acceptedAnswer: { "@type": "Answer", text: "UPI, PhonePe, Google Pay, Paytm, IMPS, NEFT and direct bank transfer — all in INR." } },
         { "@type": "Question", name: "How fast are withdrawals?", acceptedAnswer: { "@type": "Answer", text: "Most UPI withdrawals settle within 5–15 minutes, 24x7." } },
         { "@type": "Question", name: "What is the minimum deposit?", acceptedAnswer: { "@type": "Answer", text: "Just ₹100 — start small and scale as you go." } },
@@ -87,10 +87,10 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Mahadev Book — India's #1 Online Cricket Betting ID | IPL 2026 & Live Casino"
-        description="Get your verified Mahadev Book ID instantly via WhatsApp. India's most trusted online cricket betting & live casino — IPL 2026, T20, Teen Patti, Andar Bahar, Roulette. Instant UPI deposit & withdrawal in INR. 24x7 Hindi support."
+        title="MahadevFast — #1 Cricket Betting ID India | Get Your ID in 60 Seconds"
+        description="Get your MahadevFast cricket betting ID in 60 seconds on WhatsApp. Bet on IPL 2026, T20 World Cup, Teen Patti & Aviator. Minimum deposit ₹100, withdrawal in 5 minutes, 24x7 Hindi & English support. Join India's fastest cricket betting platform today."
         canonical="/"
-        keywords="mahadev book, mahadev book id, mahadev book login, betting sites, best betting sites, sports betting, best sports betting app, sports betting apps, online betting, online betting sites, online betting India, online sports betting, NFL odds, NFL picks, NBA picks, NBA odds, AI sports predictions, AI cricket predictions, live dealer casino, live casino online, no deposit bonus casino, casino bonus, best online casino, online casino real money, online casino India, online cricket betting id, cricket betting app, IPL 2026 betting, T20 World Cup betting, Teen Patti online, Teen Patti real money, Andar Bahar real money, live roulette India, dragon tiger online, blackjack online India, online slots real money, welcome bonus casino, free spins no deposit, sportsbook, live betting, in-play betting, satta king, lotus365 id, reddy anna id, sky exchange id, UPI betting deposit, instant withdrawal betting, INR betting site, esports betting"
+        keywords="mahadevfast, mahadevfast cricket id, cricket betting id India, IPL 2026 betting, online cricket betting India, cricket betting WhatsApp, mahadevfast.live"
         jsonLd={jsonLd}
       />
       <TickerBar />

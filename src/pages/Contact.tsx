@@ -12,18 +12,18 @@ const Contact = () => {
     {
       "@context": "https://schema.org",
       "@type": "ContactPage",
-      name: "Contact Mahadev Book",
-      url: "https://mahadevfast.live/contact",
-      description: "Contact Mahadev Book on WhatsApp 24x7 in Hindi and English. Get your online cricket betting ID, deposit, withdrawal & support instantly.",
+      name: "Contact MahadevFast",
+      url: "https://www.mahadevfast.live/contact",
+      description: "Contact MahadevFast on WhatsApp 24x7 in Hindi and English. Get your online cricket betting ID, deposit, withdrawal & support instantly.",
       mainEntity: {
         "@type": "Organization",
-        name: "Mahadev Book",
+        name: "MahadevFast",
         contactPoint: [
           {
             "@type": "ContactPoint",
             contactType: "Customer Support",
             availableLanguage: ["English", "Hindi"],
-            url: "https://mahadevfast.live/",
+            url: "https://www.mahadevfast.live/",
             areaServed: "IN",
             hoursAvailable: "Mo-Su 00:00-23:59",
           },
@@ -34,8 +34,8 @@ const Contact = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://mahadevfast.live/" },
-        { "@type": "ListItem", position: 2, name: "Contact", item: "https://mahadevfast.live/contact" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.mahadevfast.live/" },
+        { "@type": "ListItem", position: 2, name: "Contact", item: "https://www.mahadevfast.live/contact" },
       ],
     },
   ];
@@ -43,10 +43,10 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Contact Mahadev Book — 24x7 WhatsApp Support India | Get Cricket ID Online"
-        description="Contact Mahadev Book on WhatsApp 24x7 in Hindi & English. Get your online cricket betting ID, deposit, withdrawal & support instantly. Average response under 60 seconds."
+        title="Contact MahadevFast — 24x7 WhatsApp Support India | Get Cricket ID Online"
+        description="Contact MahadevFast on WhatsApp 24x7 in Hindi & English. Get your online cricket betting ID, deposit, withdrawal & support instantly. Average response under 60 seconds."
         canonical="/contact"
-        keywords="mahadev book contact, mahadev book whatsapp, mahadev book support, get cricket id online, online betting id support india"
+        keywords="MahadevFast contact, MahadevFast whatsapp, MahadevFast support, get cricket id online, online betting id support india"
         jsonLd={jsonLd}
       />
       <TickerBar />
@@ -57,9 +57,9 @@ const Contact = () => {
         </nav>
 
         <header className="mb-10">
-          <h1 className="text-4xl md:text-6xl font-display font-bold text-gradient-gold mb-4">Contact Mahadev Book</h1>
+          <h1 className="text-4xl md:text-6xl font-display font-bold text-gradient-gold mb-4">Contact MahadevFast</h1>
           <p className="text-lg text-muted-foreground">
-            The fastest way to <strong className="text-gold">get your Mahadev Book ID online</strong>, deposit in INR, withdraw via UPI, or get support is WhatsApp. Average response time: <strong className="text-gold">under 60 seconds</strong>, 24x7 in Hindi & English.
+            The fastest way to <strong className="text-gold">get your MahadevFast ID online</strong>, deposit in INR, withdraw via UPI, or get support is WhatsApp. Average response time: <strong className="text-gold">under 60 seconds</strong>, 24x7 in Hindi & English.
           </p>
         </header>
 
@@ -85,8 +85,8 @@ const Contact = () => {
         <section className="rounded-2xl border border-gold/20 p-7 bg-card">
           <h2 className="text-2xl font-display font-bold text-gold mb-4">What can our team help with?</h2>
           <ul className="grid md:grid-cols-2 gap-3 text-sm text-foreground/90">
-            <li>• <strong>Get a new Mahadev Book ID online</strong> in 2 minutes</li>
-            <li>• <strong>Login Mahadev Book</strong> — password reset & recovery</li>
+            <li>• <strong>Get a new MahadevFast ID online</strong> in 2 minutes</li>
+            <li>• <strong>Login MahadevFast</strong> — password reset & recovery</li>
             <li>• <strong>UPI deposit</strong> via PhonePe / Google Pay / Paytm</li>
             <li>• <strong>Instant INR withdrawal</strong> to any Indian bank</li>
             <li>• Cricket bet placement help (IPL, T20, Test, ODI)</li>
@@ -97,7 +97,7 @@ const Contact = () => {
         </section>
 
         <p className="mt-8 text-sm text-muted-foreground">
-          New to Mahadev Book? Read our <Link to="/about" className="text-gold underline">About page</Link> or browse the <Link to="/blog" className="text-gold underline">guides blog</Link>.
+          New to MahadevFast? Read our <Link to="/about" className="text-gold underline">About page</Link> or browse the <Link to="/blog" className="text-gold underline">guides blog</Link>.
         </p>
       </main>
       <Footer />

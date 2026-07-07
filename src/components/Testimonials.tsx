@@ -2,9 +2,9 @@ import { Star } from "lucide-react";
 
 const REVIEWS = [
   { name: "Rahul S.", city: "Mumbai", text: "Got my ID in 2 minutes on WhatsApp. Withdrew ₹45,000 winnings the same evening to my UPI. Best site for IPL betting!" },
-  { name: "Aman K.", city: "Delhi", text: "Been using Mahadev Book for 8 months. Andar Bahar and Teen Patti tables are smooth, dealers are great. 100% trustworthy." },
+  { name: "Aman K.", city: "Delhi", text: "Been using MahadevFast for 8 months. Andar Bahar and Teen Patti tables are smooth, dealers are great. 100% trustworthy." },
   { name: "Priya M.", city: "Bangalore", text: "Customer support replies instantly on WhatsApp. Deposits via UPI take seconds. Loving the casino bonuses!" },
-  { name: "Vikram R.", city: "Pune", text: "T20 World Cup odds were the best on Mahadev Book. Made ₹1.2 lakh profit and got it in my bank within 10 minutes." },
+  { name: "Vikram R.", city: "Pune", text: "T20 World Cup odds were the best on MahadevFast. Made ₹1.2 lakh profit and got it in my bank within 10 minutes." },
 ];
 
 export const Testimonials = () => (

@@ -3,7 +3,7 @@ import { WHATSAPP_LINK } from "@/lib/links";
 import { MessageCircle, X } from "lucide-react";
 
 const QUICK_REPLIES = [
-  "How to get a Mahadev Book ID?",
+  "How to get a MahadevFast ID?",
   "What is the minimum deposit?",
   "How fast are withdrawals?",
   "Do you support UPI?",
@@ -52,7 +52,7 @@ export const WhatsAppChatbot = () => {
               <MessageCircle className="w-5 h-5" />
             </div>
             <div>
-              <div className="font-bold text-sm">Mahadev Book Support</div>
+              <div className="font-bold text-sm">MahadevFast Support</div>
               <div className="text-xs opacity-90 flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-green-300 animate-pulse" /> Online · Replies instantly
               </div>
@@ -61,7 +61,7 @@ export const WhatsAppChatbot = () => {
 
           <div className="p-4 space-y-3 bg-background max-h-80 overflow-y-auto">
             <div className="bg-card border border-gold/20 rounded-2xl rounded-tl-sm px-4 py-2.5 text-sm max-w-[85%]">
-              👋 Hi! Welcome to Mahadev Book. How can we help you today?
+              👋 Hi! Welcome to MahadevFast. How can we help you today?
             </div>
             <div className="bg-card border border-gold/20 rounded-2xl rounded-tl-sm px-4 py-2.5 text-sm max-w-[85%]">
               Tap a question below or chat with us directly on WhatsApp 👇

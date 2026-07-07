@@ -8,7 +8,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const SLIDES = [
   {
     img: promoCricket,
-    alt: "IPL 2026 cricket betting bonus on Mahadev Book India — claim now",
+    alt: "IPL 2026 cricket betting bonus on MahadevFast India — claim now",
     eyebrow: "IPL 2026 Special",
     title: "Cricket Betting Bonus",
     subtitle: "Win up to ₹1,00,000 on every IPL match. Live odds on every ball.",
@@ -16,7 +16,7 @@ const SLIDES = [
   },
   {
     img: promoCasino,
-    alt: "Royale live casino India — Teen Patti Andar Bahar Roulette on Mahadev Book",
+    alt: "Royale live casino India — Teen Patti Andar Bahar Roulette on MahadevFast",
     eyebrow: "Live Casino",
     title: "Royale Live Casino",
     subtitle: "Teen Patti, Andar Bahar, Roulette & Blackjack with real dealers, 24x7.",
@@ -24,7 +24,7 @@ const SLIDES = [
   },
   {
     img: promoPayout,
-    alt: "Instant UPI withdrawal in INR rupees — Mahadev Book betting India",
+    alt: "Instant UPI withdrawal in INR rupees — MahadevFast betting India",
     eyebrow: "Instant Payouts",
     title: "Withdraw in ₹ Rupees",
     subtitle: "UPI, IMPS, NEFT, Paytm & Bank — instant deposit & withdrawal in INR.",

@@ -12,13 +12,13 @@ const About = () => {
     {
       "@context": "https://schema.org",
       "@type": "AboutPage",
-      name: "About Mahadev Book",
-      url: "https://mahadevfast.live/about",
-      description: "Learn about Mahadev Book — India's most trusted online cricket betting & live casino ID provider since 2019.",
+      name: "About MahadevFast",
+      url: "https://www.mahadevfast.live/about",
+      description: "Learn about MahadevFast — India's most trusted online cricket betting & live casino ID provider since 2019.",
       mainEntity: {
         "@type": "Organization",
-        name: "Mahadev Book",
-        url: "https://mahadevfast.live/",
+        name: "MahadevFast",
+        url: "https://www.mahadevfast.live/",
         foundingDate: "2019",
         areaServed: { "@type": "Country", name: "India" },
       },
@@ -27,8 +27,8 @@ const About = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://mahadevfast.live/" },
-        { "@type": "ListItem", position: 2, name: "About Us", item: "https://mahadevfast.live/about" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.mahadevfast.live/" },
+        { "@type": "ListItem", position: 2, name: "About Us", item: "https://www.mahadevfast.live/about" },
       ],
     },
   ];
@@ -36,10 +36,10 @@ const About = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="About Mahadev Book — India's #1 Online Cricket Betting ID Provider Since 2019"
-        description="Mahadev Book has been India's most trusted online cricket betting & live casino ID provider since 2019. 12,000+ verified players, 24x7 WhatsApp support, instant UPI withdrawal in INR."
+        title="About MahadevFast — India's #1 Online Cricket Betting ID Provider Since 2019"
+        description="MahadevFast has been India's most trusted online cricket betting & live casino ID provider since 2019. 12,000+ verified players, 24x7 WhatsApp support, instant UPI withdrawal in INR."
         canonical="/about"
-        keywords="about mahadev book, mahadev book company, online cricket id provider india, trusted betting id, mahadev book history"
+        keywords="about MahadevFast, MahadevFast company, online cricket id provider india, trusted betting id, MahadevFast history"
         jsonLd={jsonLd}
       />
       <TickerBar />
@@ -50,9 +50,9 @@ const About = () => {
         </nav>
 
         <header className="mb-10">
-          <h1 className="text-4xl md:text-6xl font-display font-bold text-gradient-gold mb-4">About Mahadev Book</h1>
+          <h1 className="text-4xl md:text-6xl font-display font-bold text-gradient-gold mb-4">About MahadevFast</h1>
           <p className="text-lg text-muted-foreground max-w-3xl">
-            Since <strong className="text-gold">2019</strong>, Mahadev Book has powered <strong className="text-gold">12,000+ Indian cricket fans</strong> with verified online betting IDs, instant UPI deposits in INR, and round-the-clock Hindi & English WhatsApp support.
+            Since <strong className="text-gold">2019</strong>, MahadevFast has powered <strong className="text-gold">12,000+ Indian cricket fans</strong> with verified online betting IDs, instant UPI deposits in INR, and round-the-clock Hindi & English WhatsApp support.
           </p>
         </header>
 
@@ -73,10 +73,10 @@ const About = () => {
         <section className="prose-invert max-w-none space-y-6 text-foreground/90 leading-relaxed">
           <h2 className="text-2xl md:text-3xl font-display font-bold text-gold">Our Story</h2>
           <p>
-            Mahadev Book was founded in 2019 by a small team of cricket fans tired of unreliable online <strong>cricket ID providers</strong> who took deposits and disappeared. We built Mahadev Book on three rules: <strong>instant verified IDs</strong>, <strong>real INR withdrawals via UPI</strong>, and <strong>real humans on WhatsApp 24x7</strong>. Six years later, we are India's #1 trusted name for <Link to="/games/cricket" className="text-gold underline">online cricket betting</Link> and <Link to="/games/teen-patti" className="text-gold underline">live casino games</Link>.
+            MahadevFast was founded in 2019 by a small team of cricket fans tired of unreliable online <strong>cricket ID providers</strong> who took deposits and disappeared. We built MahadevFast on three rules: <strong>instant verified IDs</strong>, <strong>real INR withdrawals via UPI</strong>, and <strong>real humans on WhatsApp 24x7</strong>. Six years later, we are India's #1 trusted name for <Link to="/games/cricket" className="text-gold underline">online cricket betting</Link> and <Link to="/games/teen-patti" className="text-gold underline">live casino games</Link>.
           </p>
 
-          <h2 className="text-2xl md:text-3xl font-display font-bold text-gold">Why Players Choose Mahadev Book</h2>
+          <h2 className="text-2xl md:text-3xl font-display font-bold text-gold">Why Players Choose MahadevFast</h2>
           <ul className="space-y-3">
             <li className="flex gap-3"><ShieldCheck className="w-5 h-5 text-gold shrink-0 mt-1" /> <span><strong>100% safe and secure</strong> — encrypted transactions, KYC-verified accounts, zero data leaks.</span></li>
             <li className="flex gap-3"><Zap className="w-5 h-5 text-gold shrink-0 mt-1" /> <span><strong>Instant UPI deposit & withdrawal</strong> — most withdrawals settle in 5–15 minutes via PhonePe, Google Pay, Paytm.</span></li>
@@ -86,17 +86,17 @@ const About = () => {
 
           <h2 className="text-2xl md:text-3xl font-display font-bold text-gold">Responsible Betting</h2>
           <p>
-            Mahadev Book is <strong>18+ only</strong>. We provide deposit-limit, cooling-off, and self-exclusion tools on request via WhatsApp. Bet only what you can afford to lose. If betting feels stressful, take a break — our support team will help you set limits or pause your account anytime.
+            MahadevFast is <strong>18+ only</strong>. We provide deposit-limit, cooling-off, and self-exclusion tools on request via WhatsApp. Bet only what you can afford to lose. If betting feels stressful, take a break — our support team will help you set limits or pause your account anytime.
           </p>
 
           <h2 className="text-2xl md:text-3xl font-display font-bold text-gold">Get Started in 60 Seconds</h2>
           <p>
-            Ready to join 12,000+ players? <Link to="/contact" className="text-gold underline">Contact us</Link> or message our team on WhatsApp now to <strong>get your Mahadev Book ID online instantly</strong>.
+            Ready to join 12,000+ players? <Link to="/contact" className="text-gold underline">Contact us</Link> or message our team on WhatsApp now to <strong>get your MahadevFast ID online instantly</strong>.
           </p>
         </section>
 
         <aside className="mt-12 p-8 rounded-2xl bg-gradient-gold-soft border border-gold/30 text-center">
-          <h3 className="text-2xl font-display font-bold text-gradient-gold mb-3">Get your Mahadev Book ID now</h3>
+          <h3 className="text-2xl font-display font-bold text-gradient-gold mb-3">Get your MahadevFast ID now</h3>
           <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-gold text-primary-foreground font-bold shadow-gold hover:shadow-gold-lg hover:scale-105 transition-all">
             Chat on WhatsApp

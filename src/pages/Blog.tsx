@@ -11,14 +11,14 @@ const Blog = () => {
     {
       "@context": "https://schema.org",
       "@type": "Blog",
-      name: "Mahadev Book Blog",
-      url: "https://mahadevfast.live/blog",
+      name: "MahadevFast Blog",
+      url: "https://www.mahadevfast.live/blog",
       description: "Expert guides on cricket betting, IPL strategy, live casino, Teen Patti, Andar Bahar and online betting in India.",
-      publisher: { "@type": "Organization", name: "Mahadev Book", url: "https://mahadevfast.live" },
+      publisher: { "@type": "Organization", name: "MahadevFast", url: "https://mahadevfast.live" },
       blogPost: BLOG_POSTS.map(p => ({
         "@type": "BlogPosting",
         headline: p.title,
-        url: `https://mahadevfast.live/blog/${p.slug}`,
+        url: `https://www.mahadevfast.live/blog/${p.slug}`,
         datePublished: p.publishedAt,
         dateModified: p.updatedAt,
         author: { "@type": "Organization", name: p.author },
@@ -29,8 +29,8 @@ const Blog = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://mahadevfast.live/" },
-        { "@type": "ListItem", position: 2, name: "Blog", item: "https://mahadevfast.live/blog" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.mahadevfast.live/" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.mahadevfast.live/blog" },
       ],
     },
   ];
@@ -38,10 +38,10 @@ const Blog = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Cricket Betting & Casino Blog India 2026 | Mahadev Book Guides & Tips"
+        title="Cricket Betting & Casino Blog India 2026 | MahadevFast Guides & Tips"
         description="Expert guides on IPL 2026 betting, online cricket ID, Teen Patti, Andar Bahar, live casino, UPI deposits and winning strategy. India's top betting blog."
         canonical="/blog"
-        keywords="cricket betting blog, ipl 2026 tips, teen patti guide, andar bahar strategy, online casino india, mahadev book blog"
+        keywords="cricket betting blog, ipl 2026 tips, teen patti guide, andar bahar strategy, online casino india, MahadevFast blog"
         jsonLd={jsonLd}
       />
       <TickerBar />
@@ -53,7 +53,7 @@ const Blog = () => {
 
         <header className="mb-10 max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-display font-bold text-gradient-gold mb-4">
-            Mahadev Book Blog
+            MahadevFast Blog
           </h1>
           <p className="text-lg text-muted-foreground">
             Expert guides on <strong className="text-gold">IPL 2026 betting</strong>, online cricket IDs, live casino strategy, Teen Patti, Andar Bahar, UPI payments and more — written by India's top tipsters and casino pros.

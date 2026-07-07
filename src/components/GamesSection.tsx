@@ -8,19 +8,19 @@ import dragontiger from "@/assets/game-dragontiger.jpg";
 import { WHATSAPP_LINK } from "@/lib/links";
 
 const CRICKET_GAMES = [
-  { img: cricket, title: "IPL Betting", desc: "Bet on every IPL match, ball-by-ball live odds.", alt: "Bet on IPL 2026 live online with Mahadev Book India" },
-  { img: cricket, title: "T20 World Cup", desc: "ICC T20 & 50-over World Cup live markets.", alt: "T20 World Cup online betting on Mahadev Book India" },
-  { img: cricket, title: "Test & ODI", desc: "Test matches, ODIs, BBL, PSL — every league.", alt: "Test, ODI and BBL cricket betting online on Mahadev Book" },
-  { img: cricket, title: "Fancy Cricket", desc: "Session, lambi, over runs & toss markets.", alt: "Fancy cricket betting session and lambi on Mahadev Book India" },
+  { img: cricket, title: "IPL Betting", desc: "Bet on every IPL match, ball-by-ball live odds.", alt: "Bet on IPL 2026 live online with MahadevFast India" },
+  { img: cricket, title: "T20 World Cup", desc: "ICC T20 & 50-over World Cup live markets.", alt: "T20 World Cup online betting on MahadevFast India" },
+  { img: cricket, title: "Test & ODI", desc: "Test matches, ODIs, BBL, PSL — every league.", alt: "Test, ODI and BBL cricket betting online on MahadevFast" },
+  { img: cricket, title: "Fancy Cricket", desc: "Session, lambi, over runs & toss markets.", alt: "Fancy cricket betting session and lambi on MahadevFast India" },
 ];
 
 const CASINO_GAMES = [
-  { img: teenpatti, title: "Teen Patti", desc: "India's favourite — 3-card live action.", alt: "Play Teen Patti online real money India on Mahadev Book" },
-  { img: andarbahar, title: "Andar Bahar", desc: "Classic Indian card game with live dealers.", alt: "Live Andar Bahar online India with Mahadev Book casino" },
-  { img: roulette, title: "Roulette", desc: "European & Lightning roulette tables.", alt: "Play online Roulette India real money on Mahadev Book" },
-  { img: blackjack, title: "Live Blackjack", desc: "Real dealers, real-time rounds, real ₹ wins.", alt: "Live Blackjack online India INR — Mahadev Book casino" },
-  { img: dragontiger, title: "Dragon Tiger", desc: "Fast-paced card battle, instant results.", alt: "Dragon Tiger live casino India on Mahadev Book" },
-  { img: slots, title: "777 Slots", desc: "200+ premium slots with mega jackpots.", alt: "Online 777 slots real money India — Mahadev Book casino" },
+  { img: teenpatti, title: "Teen Patti", desc: "India's favourite — 3-card live action.", alt: "Play Teen Patti online real money India on MahadevFast" },
+  { img: andarbahar, title: "Andar Bahar", desc: "Classic Indian card game with live dealers.", alt: "Live Andar Bahar online India with MahadevFast casino" },
+  { img: roulette, title: "Roulette", desc: "European & Lightning roulette tables.", alt: "Play online Roulette India real money on MahadevFast" },
+  { img: blackjack, title: "Live Blackjack", desc: "Real dealers, real-time rounds, real ₹ wins.", alt: "Live Blackjack online India INR — MahadevFast casino" },
+  { img: dragontiger, title: "Dragon Tiger", desc: "Fast-paced card battle, instant results.", alt: "Dragon Tiger live casino India on MahadevFast" },
+  { img: slots, title: "777 Slots", desc: "200+ premium slots with mega jackpots.", alt: "Online 777 slots real money India — MahadevFast casino" },
 ];
 
 const Card = ({ img, title, desc, alt }: { img: string; title: string; desc: string; alt: string }) => (

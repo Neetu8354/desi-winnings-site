@@ -13,7 +13,7 @@ const GamePage = () => {
   const game = GAMES.find(g => g.slug === slug);
   if (!game) return <Navigate to="/" replace />;
 
-  const url = `https://mahadevfast.live/games/${game.slug}`;
+  const url = `https://www.mahadevfast.live/games/${game.slug}`;
   const jsonLd: object[] = [
     {
       "@context": "https://schema.org",
@@ -22,16 +22,16 @@ const GamePage = () => {
       url,
       description: game.description,
       inLanguage: "en-IN",
-      isPartOf: { "@type": "WebSite", name: "Mahadev Book", url: "https://mahadevfast.live/" },
+      isPartOf: { "@type": "WebSite", name: "MahadevFast", url: "https://www.mahadevfast.live/" },
     },
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://mahadevfast.live/#organization",
-      name: "Mahadev Book",
-      url: "https://mahadevfast.live/",
-      logo: "https://mahadevfast.live/favicon.png",
-      image: "https://mahadevfast.live/og-image.jpg",
+      "@id": "https://www.mahadevfast.live/#organization",
+      name: "MahadevFast",
+      url: "https://www.mahadevfast.live/",
+      logo: "https://www.mahadevfast.live/favicon.png",
+      image: "https://www.mahadevfast.live/og-image.jpg",
       description: "#1 Cricket Betting ID & Live Casino India",
       areaServed: { "@type": "Country", name: "India" },
       aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", bestRating: "5", worstRating: "1", ratingCount: "12480", reviewCount: "8743" },
@@ -40,8 +40,8 @@ const GamePage = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://mahadevfast.live/" },
-        { "@type": "ListItem", position: 2, name: "Games", item: "https://mahadevfast.live/games" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.mahadevfast.live/" },
+        { "@type": "ListItem", position: 2, name: "Games", item: "https://www.mahadevfast.live/games" },
         { "@type": "ListItem", position: 3, name: game.h1, item: url },
       ],
     },
@@ -126,7 +126,7 @@ const GamePage = () => {
         </section>
 
         <aside className="mt-12 p-8 rounded-2xl bg-gradient-gold-soft border border-gold/30 text-center">
-          <h3 className="text-2xl font-display font-bold text-gradient-gold mb-3">Play {game.shortName} on Mahadev Book — 24x7</h3>
+          <h3 className="text-2xl font-display font-bold text-gradient-gold mb-3">Play {game.shortName} on MahadevFast — 24x7</h3>
           <p className="text-muted-foreground mb-5">Instant ID via WhatsApp • UPI deposit ₹100 min • Fast INR withdrawal</p>
           <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-gold text-primary-foreground font-bold shadow-gold hover:shadow-gold-lg hover:scale-105 transition-all">

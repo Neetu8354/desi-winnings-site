@@ -13,7 +13,7 @@ const BlogPost = () => {
   const post = BLOG_POSTS.find(p => p.slug === slug);
   if (!post) return <Navigate to="/blog" replace />;
 
-  const url = `https://mahadevfast.live/blog/${post.slug}`;
+  const url = `https://www.mahadevfast.live/blog/${post.slug}`;
   const related = post.related.map(s => BLOG_POSTS.find(p => p.slug === s)).filter(Boolean);
 
   const jsonLd: object[] = [
@@ -23,14 +23,14 @@ const BlogPost = () => {
       mainEntityOfPage: { "@type": "WebPage", "@id": url },
       headline: post.title,
       description: post.description,
-      image: [`https://mahadevfast.live/og-image.jpg`],
+      image: [`https://www.mahadevfast.live/og-image.jpg`],
       datePublished: post.publishedAt,
       dateModified: post.updatedAt,
       author: { "@type": "Organization", name: post.author, url: "https://mahadevfast.live" },
       publisher: {
         "@type": "Organization",
-        name: "Mahadev Book",
-        logo: { "@type": "ImageObject", url: "https://mahadevfast.live/favicon.png" },
+        name: "MahadevFast",
+        logo: { "@type": "ImageObject", url: "https://www.mahadevfast.live/favicon.png" },
       },
       keywords: post.keywords,
       articleSection: post.category,
@@ -41,8 +41,8 @@ const BlogPost = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://mahadevfast.live/" },
-        { "@type": "ListItem", position: 2, name: "Blog", item: "https://mahadevfast.live/blog" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.mahadevfast.live/" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.mahadevfast.live/blog" },
         { "@type": "ListItem", position: 3, name: post.title, item: url },
       ],
     },
@@ -63,7 +63,7 @@ const BlogPost = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title={`${post.title} | Mahadev Book`}
+        title={`${post.title} | MahadevFast`}
         description={post.description}
         canonical={`/blog/${post.slug}`}
         keywords={post.keywords}
@@ -125,7 +125,7 @@ const BlogPost = () => {
 
           <aside className="mt-12 p-6 md:p-8 rounded-2xl bg-gradient-gold-soft border border-gold/30 text-center">
             <h3 className="text-xl md:text-2xl font-display font-bold text-gradient-gold mb-2">
-              Ready to Get Your Mahadev Book ID?
+              Ready to Get Your MahadevFast ID?
             </h3>
             <p className="text-muted-foreground mb-5">Instant WhatsApp signup • UPI deposit ₹100 min • 24x7 support</p>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"

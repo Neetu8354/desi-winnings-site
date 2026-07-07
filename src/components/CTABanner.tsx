@@ -16,7 +16,7 @@ export const CTABanner = () => (
           Ready to <span className="text-gradient-gold">Win Big?</span>
         </h2>
         <p className="text-muted-foreground text-base md:text-lg mb-8">
-          Get your verified Mahadev Book ID in just 2 minutes. Deposit in ₹ Rupees, bet on cricket & casino, withdraw instantly. 24x7 WhatsApp support.
+          Get your verified MahadevFast ID in just 2 minutes. Deposit in ₹ Rupees, bet on cricket & casino, withdraw instantly. 24x7 WhatsApp support.
         </p>
         <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer"
           className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-gold text-primary-foreground font-bold text-base shadow-gold-lg hover:scale-105 transition-transform">

@@ -25,8 +25,8 @@ export const BonusPopup = () => {
       />
 
       {/* Popup */}
-      <div className="fixed bottom-6 right-6 z-50 w-full max-w-sm animate-in fade-in slide-in-from-bottom-4 duration-500">
-        <div className="relative bg-gradient-to-br from-card to-card/80 border border-gold/40 rounded-2xl p-6 shadow-gold-lg overflow-hidden">
+      <div className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-in fade-in duration-500">
+        <div className="relative bg-gradient-to-br from-card to-card/80 border border-gold/40 rounded-2xl p-8 shadow-gold-lg overflow-hidden w-full max-w-md">
           {/* Decorative background element */}
           <div className="absolute -top-20 -right-20 w-40 h-40 bg-gradient-radial-gold opacity-30 rounded-full blur-3xl" />
 
